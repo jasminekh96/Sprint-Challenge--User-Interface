@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	border: none;
+	padding: 20px;
+	word-spacing: 20px;
+}
+
+header nav a {
+	margin-left: 50px;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+header a {
+	justify-content: space-around;
+}
+header nav a:hover {
+	text-decoration: underline;
+}
+h1 {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+p {
+	font-size: 14pt;
+	margin-bottom: 20px;
+}
+.child {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 46%;
+	margin-top: 25x;
+	font-size: 20px;
+}
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 32px 0;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.jumbopic {
+	width: 800px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+hr {
+	border: 1px dashed #000;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+.child button {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background: white;
+	border: black 2px solid;
+	padding: 12px 30px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+footer {
+	width: 100%;
+	background: black;
+	justify-content: flex-end;
+}
+
+footer nav {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 15px 2%;
+	font-size: 14px;
+}
+
+footer nav a {
+	color: white;
+	text-decoration: none;
+}
